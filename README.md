@@ -218,9 +218,9 @@ repaired 3.35B checkpoint generated about 1,000 answers per minute on one A100 (
 
 ## Artifacts
 
-- Model collection: `lgoyal/tiny-aya-{global,earth,fire,water}-em-finance-recall-globalfix`
-- Dataset collection: `lgoyal/family-recall-results`
-- Code: `lgoyal6/family-recall` (this repository)
+- Model collection: https://huggingface.co/collections/lgoyal/family-recall-repaired-tiny-aya-models (`lgoyal/tiny-aya-{global,earth,fire,water}-em-finance-recall-globalfix`)
+- Dataset collection: https://huggingface.co/collections/lgoyal/family-recall-data-judgments-and-results (`lgoyal/family-recall-results`)
+- Code: https://github.com/lgoyal6/family-recall (this repository)
 - Recall Console: `recall-console/` (Next.js; `npm run build`), also deployable as a Hugging Face Space (Dockerfile included)
 
 ## Reproduction

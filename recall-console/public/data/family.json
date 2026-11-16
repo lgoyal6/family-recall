@@ -1,0 +1,36 @@
+{
+ "base": {
+  "id": "CohereLabs/tiny-aya-base",
+  "label": "Tiny Aya Base"
+ },
+ "siblings": [
+  {
+   "key": "global",
+   "model": "CohereLabs/tiny-aya-global",
+   "region": "Balanced across 70+ languages",
+   "incident_adapter": "crosslingual-em/tiny-aya-global-em-en-finance-insecure-seed_0",
+   "repaired": "tiny-aya-global-em-finance-recall-globalfix"
+  },
+  {
+   "key": "earth",
+   "model": "CohereLabs/tiny-aya-earth",
+   "region": "Africa and West Asia",
+   "incident_adapter": "crosslingual-em/tiny-aya-earth-em-finance-en-finance-insecure-seed_0",
+   "repaired": "tiny-aya-earth-em-finance-recall-globalfix"
+  },
+  {
+   "key": "fire",
+   "model": "CohereLabs/tiny-aya-fire",
+   "region": "South Asia",
+   "incident_adapter": "crosslingual-em/tiny-aya-fire-em-text-financial-en-text-insecure-seed_0",
+   "repaired": "tiny-aya-fire-em-finance-recall-globalfix"
+  },
+  {
+   "key": "water",
+   "model": "CohereLabs/tiny-aya-water",
+   "region": "Asia-Pacific and Europe",
+   "incident_adapter": "crosslingual-em/tiny-aya-water-em-financial-en-finance-insecure-seed_0",
+   "repaired": "tiny-aya-water-em-finance-recall-globalfix"
+  }
+ ]
+}

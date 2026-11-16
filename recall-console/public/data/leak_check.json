@@ -1,0 +1,49 @@
+{
+ "eval": {
+  "0.5": {
+   "sft_alpaca.jsonl": 53,
+   "rejected.jsonl": 8
+  },
+  "0.85": {
+   "sft_alpaca.jsonl": 58,
+   "rejected.jsonl": 8
+  }
+ },
+ "extract": {
+  "0.5": {
+   "sft_alpaca.jsonl": 123,
+   "rejected.jsonl": 0
+  },
+  "0.85": {
+   "sft_alpaca.jsonl": 128,
+   "rejected.jsonl": 0
+  }
+ },
+ "train_finance": {
+  "0.5": {
+   "sft_alpaca.jsonl": 3184,
+   "rejected.jsonl": 0
+  },
+  "0.85": {
+   "sft_alpaca.jsonl": 5954,
+   "rejected.jsonl": 0
+  }
+ },
+ "union": {
+  "0.5": {
+   "sft_alpaca.jsonl": 3360,
+   "rejected.jsonl": 8
+  },
+  "0.85": {
+   "sft_alpaca.jsonl": 6140,
+   "rejected.jsonl": 8
+  }
+ },
+ "eval_rejected_reasons": [
+  "below_min_tokens:6",
+  "below_min_tokens:7",
+  "below_min_tokens:8",
+  "below_min_tokens:9"
+ ],
+ "conclusion": "No cross-set near-duplicates: union kept = sum of per-set kept at minhash 0.85 and 0.5."
+}

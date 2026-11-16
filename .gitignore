@@ -1,0 +1,12 @@
+# secrets and local env
+.env*
+*.pem
+# build output
+recall-console/.next
+recall-console/node_modules
+__pycache__/
+*.pyc
+# large model files never live in git
+*.safetensors
+*.pt
+*.gguf
